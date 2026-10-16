@@ -1,0 +1,9 @@
+/external/
+/build*/
+/dist/
+/renders/
+/.venv/
+__pycache__/
+*.user
+/reports/
+/di/
