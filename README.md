@@ -46,8 +46,6 @@ bash scripts/build.sh
 bash scripts/package.sh
 ```
 
-Packages are saved in `dist/`.
-
 Version tags like `v0.2.0` trigger builds for all three platforms on GitHub and automatically publish a release with ZIP files once all tests pass.
 
 ---
