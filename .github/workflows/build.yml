@@ -1,7 +1,8 @@
 name: Build and validate VST3
 on:
   push:
-  pull_request:
+    tags:
+      - 'v*'
   workflow_dispatch:
 permissions:
   contents: read
