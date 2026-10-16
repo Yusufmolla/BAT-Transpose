@@ -24,6 +24,8 @@ BAT produced more unwanted spectral artifacts than Nolly X on dense, low chords.
 
 These measurements do not reflect subjective sound quality or total live latency.
 
+## Build
+
 Requires Git, CMake 3.25+, Ninja, and a C++17 compiler.
 
 - Windows: Visual Studio Build Tools with C++ desktop tools
@@ -45,9 +47,6 @@ bash scripts/bootstrap.sh
 bash scripts/build.sh
 bash scripts/package.sh
 ```
-
-Version tags like `v0.2.0` trigger builds for all three platforms on GitHub and automatically publish a release with ZIP files once all tests pass.
-
 ---
 
 **Yusuf Molla** · [MIT License](LICENSE)
